@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* Page background and font */
+body {
+    background-color: #f5f8fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Table header */
+table th {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table rows */
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    color: #2c3e50;
+}
+
+/* Alternating row background */
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Update link styling */
+a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #21618c;
+}
