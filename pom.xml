@@ -13,7 +13,6 @@
     <groupId>com.example</groupId>
     <artifactId>Logistics</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
     <name>Logistics</name>
     <description>Logistics Management System with JSP</description>
 
@@ -65,7 +64,7 @@
     </dependencies>
 
     <build>
-        <finalName>logistics-management</finalName>
+        
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
